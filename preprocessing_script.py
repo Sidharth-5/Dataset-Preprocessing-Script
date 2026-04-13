@@ -6,7 +6,7 @@ import re
 import unicodedata
 import os
 
-base_path = "/content/drive/MyDrive/test_nllb"
+base_path = "/content/drive/MyDrive/Dataset"
 dataset_path = os.path.join(base_path, "dataset.csv")
 
 df = pd.read_csv(dataset_path)
